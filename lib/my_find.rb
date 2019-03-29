@@ -8,3 +8,6 @@ def my_find(collection)
     i += 1
   end
 end
+
+
+my_find(array) {|el| el + 1}
