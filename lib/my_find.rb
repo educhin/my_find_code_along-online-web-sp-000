@@ -5,13 +5,9 @@ def my_find(collection)
 
   while i < collection.length
     if yield(collection[i])
-      binding.pry
       return collection[i]
     end
     i += 1
   end
 
 end
-
-
-my_find([1,2,3,4,10]) {|el| el > 9}
