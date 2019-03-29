@@ -12,4 +12,4 @@ def my_find(collection)
 end
 
 
-my_find(array) {|el| el > 9}
+my_find([1...10]) {|el| el > 9}
