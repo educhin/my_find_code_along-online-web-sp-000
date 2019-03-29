@@ -9,6 +9,7 @@ def my_find(collection)
     end
     i += 1
   end
+  binding.pry
 end
 
 
